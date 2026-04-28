@@ -6,7 +6,7 @@ export default async function Home() {
 
   const data = await getData()
 
-  console.log(data)
+  // console.log(data)
 
 
 

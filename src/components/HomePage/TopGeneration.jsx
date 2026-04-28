@@ -7,7 +7,7 @@ import { RxDividerVertical } from 'react-icons/rx';
 
 const TopGeneration = ({ data }) => {
 
-    console.log(data)
+    // console.log(data)
     return (
         <Card className='rounded-md'>
 
