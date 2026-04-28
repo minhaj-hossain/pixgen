@@ -1,5 +1,6 @@
 import { Button, Card } from '@heroui/react';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import { GiLoveHowl } from 'react-icons/gi';
 import { PiDownloadSimple } from 'react-icons/pi';
@@ -41,7 +42,11 @@ const TopGeneration = ({ data }) => {
                 </div>
             </div>
 
-            <Button variant='outline' className={'w-full'}>View</Button>
+
+
+            <Link href={`/details/${data.id}`}>
+                <Button variant='outline' className={'w-full'}>View</Button>
+            </Link>
 
         </Card>
     );

@@ -1,7 +1,7 @@
 import { authClient } from "@/lib/auth-client";
 import { Envelope } from "@gravity-ui/icons";
 import { Button, Input, Label, Modal, Surface, TextField } from "@heroui/react";
-import { BiUser } from "react-icons/bi";
+import { BiEdit, BiUser } from "react-icons/bi";
 
 const UpdateProfileModal = () => {
 
@@ -22,7 +22,7 @@ const UpdateProfileModal = () => {
     return (
 
         <Modal>
-            <Button variant="secondary">Edit</Button>
+            <Button variant="secondary"><BiEdit />Edit Profile</Button>
             <Modal.Backdrop>
                 <Modal.Container placement="auto">
                     <Modal.Dialog className="sm:max-w-md">
